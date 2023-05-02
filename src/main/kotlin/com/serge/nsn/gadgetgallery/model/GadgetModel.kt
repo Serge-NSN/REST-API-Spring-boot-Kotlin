@@ -1,9 +1,9 @@
-package com.serge.nsn.gadgetgallery
+package com.serge.nsn.gadgetgallery.model
 
 import jakarta.persistence.*
 
 
-class Gadget {
+class GadgetModel {
     @Entity
     @Table(name = "GADGET")
     data class Gadget(
